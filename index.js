@@ -37,7 +37,7 @@ console.log(cowSound, horseSound, sheepSound, pigSound, chickenSound);
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
 const animalNames = 'bessie dolly babe little'
-const [animal1, animal3, animal4, animal5] = animalNames.split(' ').filter(animal => animal !== 'horse');
+const [animal1, animal3, animal4, animal5] = animalNames.split(' ');
 console.log(animal1, animal3, animal4, animal5);
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
